@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal website repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joecervino/personal-website.git"
+  },
+  "author": "Joe Cervino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joecervino/personal-website/issues"
+  },
+  "homepage": "https://github.com/joecervino/personal-website#readme"
+}

@@ -1,0 +1,2 @@
+console.log('Github icon made by Dave Gandy and is licensed under Creative Commons 3.0, Thanks Dave!');
+console.log('Linkedin icon made by Freepik and is licensed under Creative Commons 3.0. Thanks Freepik!');

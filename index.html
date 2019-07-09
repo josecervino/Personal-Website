@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <Title>Joe Cervino, Software Engineer</Title>
+
+        <link   rel="stylesheet" 
+                href="https://use.typekit.net/gpe8jxw.css">
+        <link   rel="stylesheet" 
+                href="assets/stylesheets/index.css">
+        <script src="assets/scripts/credits.js"></script>
+        <script src="assets/scripts/index.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <header>
+                <div class="header-text">
+                    <a href="index.html"><h1 class="name tk-proxima-nova">Joe Cervino</h1></a>
+                    <h5 class="current-title">Software Engineer</h5>
+                </div>
+                <div class="header-icons">
+                    <a  href="https://github.com/joecervino" 
+                        target="_blank" 
+                        class="btn">
+                        <img 
+                            src="assets/images/github-logo.svg"
+                            class="svg github-icon"
+                            alt="github logo icon">
+                    </a>
+                    <a  href="https://www.linkedin.com/in/josephcervino/" 
+                        target="_blank" 
+                        class="btn">
+                        <img
+                            src="assets/images/linkedin.svg" 
+                            class="svg linkedin-icon"
+                            alt="linkedin logo icon">
+                    </a>
+                </div>
+            </header>
+            <main>
+                <section class="content"
+                         id="blurb-section" 
+                         style="display: block;">
+                    <p align="justify">Hi I'm Joe. I'm a NYC-based software engineer and co-founder of CAJJ, a software engineering collective focusing on research and innovation around cross-platform technologies. I just finished a sprint as a Google contractor.</p>
+                    <p align="justify">I specialize in Fullstack Typescript/Javascript development, dealing primarily in the React, Redux, Node architecture with a specialization in the React Native & Electron frameworks. AI/machine learning when applied to spatial & psychological analysis, behavioral design patterns, and the 4th industrial revolution interest me.</p>
+                    <p align="justify">I developed my software engineering capacities at Codesmith, completed my undergraduate studies in architecture in London, studied business in high school, and was raised by Spanish & Colombian 1st-generation immigrant parents. I believe in Freedom, Radical Truth, Love through Service, Innovation, Respect, and Excellence. I operate in Fairness, Kindness, Hope, Creativity, and Judgement.</p>
+                    <p align="justify">I'm on a mission to push humanity beyond its limits. I aim to create solutions, whether they be physical or digital, for the most pressing issues in our communities & society. Through these means, I aim to create meaning & purpose for all.</p>
+                </section>
+                <section id="contact-form-section" style="display: none;">
+                    <form 
+                        name="contact-form" 
+                        class="contact-form">
+                        <input  required
+                                type='text' 
+                                name='name' 
+                                placeholder="Full Name" 
+                                class="form-name">
+                        <input  required
+                                type='text' 
+                                name='email'
+                                placeholder="Email" 
+                                class="form-email">
+                        </br>
+                        <textArea   required
+                                    type="text"
+                                    class="form-message"
+                                    id="form-message"
+                                    placeholder="Send me a message here (max 300 char.), or send a text to (201) 877-6459"
+                                    maxlength="300"
+                                    wrap="hard"
+                        ></textArea>
+                    </form>
+                    
+                </section>
+            </main>
+            <footer class="footer">
+                <a  href="https://docs.wixstatic.com/ugd/445489_8d0b86a4a4304ea6a6e48a44f05d6755.pdf" 
+                    class="resume-link" 
+                    target="_blank">Resume</a>
+                <a  class="contact-link"
+                    id="contact-link" 
+                    onclick="contactFormFunctionality.toggleContactForm()">Contact</a>
+                <a  href="https://vsco.co/01001010-01100011"   
+                    class="photography-link" 
+                    target="_blank">Photography</a>
+            </footer>
+        </div>
+    </body>
+</html>
