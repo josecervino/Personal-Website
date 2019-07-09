@@ -7,7 +7,7 @@ const state = {
 /**
  * @method toggleContactForm
  * @method submitFormAndSendEmail
- * @method 
+ * @method toggleContactFormEventListener
  */
 const contactFormFunctionality = {
     /**
