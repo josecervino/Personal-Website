@@ -31,21 +31,19 @@ const contactFormFunctionality = {
 
             blurbSection.style.display = 'block'; // * make the blurb visible
             state.blurbVisible = true;
-            // de-activate blurb's animation
-
-            // de-activate the window listener
+            // TODO: de-activate blurb's animation
+            // TODO: de-activate the window listener
         }
         else if (!state.contactFormVisible) {  // if the contact form is not visible
             blurbSection.style.display = 'none';  // * make the blurb invisible
             state.blurbVisible = false;
-            // activate the blurb's animation
+            // TODO: activate the blurb's animation
 
             contactFormSection.style.display = 'block';  // * make the contact form visible
             state.contactFormVisible = true;
 
             contactButton.textContent = 'Submit';  // * change the contact form button text to Submit
-
-            // activate window event listener
+            // TODO: activate window event listener
         }
     },
 
@@ -90,12 +88,11 @@ const contactFormFunctionality = {
                 state.tempStore = '';
             }
             else if (i === 1) { //email
-                //check that the email is the correct format
+                // TODO: check that the email is the correct format
             } 
             else if (i === 2) { //message
                 // const messageNewLines = /\r|\n/g.exec(message);
                 for (let j = 0; j < message.length; j += 1) {
-                    // if (messageNewLines.includes(i)) state.tempStore += '%0D%0A'
                     if (message[j] === ' ') state.tempStore += '%20';
                     else state.tempStore += message[j];
                 }
@@ -114,8 +111,8 @@ const contactFormFunctionality = {
     },
 
     toggleContactFormEventListener: function() {
-        // use state to determine whether to add or remove event listener
-        // set event listener on the inverse of the .container class
-            // could be mouseover
+        // TODO: use state to determine whether to add or remove event listener
+        // TODO: set event listener on the inverse of the .container class
+            // could be mouseover event
     },
 }
