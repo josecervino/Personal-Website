@@ -1,8 +1,6 @@
 # Personal Website
 
-Personal website found at [joecervino.com](http://joecervino.com) (soon - deployment pending)
-
-Currently deployed [here](https://confident-kepler-b01265.netlify.com/).
+Personal website found at [joecervino.com](http://joecervino.com) (deployed via [netlify](https://www.netlify.com/))
 
 ### Homepage Screenshot
 ![image](https://user-images.githubusercontent.com/34110958/60928558-ed742600-a27b-11e9-8a84-e4521d0dbab3.png)
