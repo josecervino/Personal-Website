@@ -1,4 +1,7 @@
-# Personal Website
+<h1> Personal Website
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-labs/netlify-functions-express">
+  <img align="right" src="https://www.netlify.com/img/deploy/button.svg" class="deploy-button" alt="deploy to netlify">
+</a>
 
 Personal website found at [joecervino.com](http://joecervino.com) (deployed via [netlify](https://www.netlify.com/))
 
